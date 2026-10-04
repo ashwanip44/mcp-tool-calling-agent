@@ -1,0 +1,8 @@
+openai
+python-dotenv
+tavily-python
+resend
+mcp
+langchain
+langchain-openai
+langchain-mcp-adapters

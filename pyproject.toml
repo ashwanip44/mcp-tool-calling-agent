@@ -1,0 +1,26 @@
+[project]
+name = "mcp-tool-calling-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ashwani Pundir", email = "ashwanip44@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.3",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.6.7",
+    "mcp>=1.30.0",
+    "openai>=3.24.0",
+    "python-dotenv>=1.2.4",
+    "resend>=2.49.1",
+    "tavily-python>=0.8.4",
+]
+
+[project.scripts]
+mcp-tool-calling-agent = "mcp_tool_calling_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
